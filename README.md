@@ -1,5 +1,6 @@
 
 # termux-live-server
+[![Termux Live Server - Preview](https://img.youtube.com/vi/MvvEUp_MZL8/0.jpg)](http://www.youtube.com/watch?v=MvvEUp_MZL8)
 Learn how to create your own "live server" using termux
 
 ---
