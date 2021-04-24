@@ -1,7 +1,5 @@
-let timeout = -1
-
 function reload() {
-          location.reload();
-        }
+    location.reload();
+}
 
-setTimeout(reload, timeout);
+setTimeout(reload, localStorage.timeout);
