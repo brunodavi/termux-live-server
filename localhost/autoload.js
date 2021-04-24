@@ -2,4 +2,4 @@ function reload() {
     location.reload();
 }
 
-setTimeout(reload, localStorage.timeout);
+//setTimeout(reload, 5000);
