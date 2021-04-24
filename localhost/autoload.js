@@ -1,5 +1,7 @@
+let timeout = -1
+
 function reload() {
           location.reload();
         }
 
-//setTimeout(reload, 5000);
+setTimeout(reload, timeout);
