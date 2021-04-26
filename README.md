@@ -20,7 +20,7 @@ Learn how to create your own "live server" using termux
 
 ### Autoload
 
-Uncomment `autoload.js` on `setTimout(reload, 5000);`
+`<meta http-equiv="refresh" content="seconds">`
 
 > To view remotely, change 0.0.0.0 by your IP which can be seen with the `ifconfig` command in wlan0
 
