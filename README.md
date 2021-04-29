@@ -1,12 +1,13 @@
 
 # termux-live-server
-Learn how to create your own "live server" using termux
+Learn how to create your own [live-server](https://github.com/tapio/live-server) using termux
 
 ---
 
 ### Install PHP
     pkg update && pkg upgrade
-    pkg install php
+    pkg install node
+    npm install live-server
 
 ---
 
@@ -14,13 +15,9 @@ Learn how to create your own "live server" using termux
     pkg install git
     git clone https://github.com/brunodavi/termux-live-server.git
     cd termux-live-server/localhost/
-    php -S 0.0.0.0:5500
+    npx live-server
 
----
-
-### Autoload
-
-`<meta http-equiv="refresh" content="seconds">`
-
-> To view remotely, change 0.0.0.0 by your IP which can be seen with the `ifconfig` command in wlan0
+> To view remotely on another device, instead of `127.0.0.1:8000`
+> use your `IP:8000` your ip can be seen with the `ifcongfig` command 
+> on the part of wlan0
 
