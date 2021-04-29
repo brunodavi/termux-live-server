@@ -4,14 +4,14 @@ Learn how to create your own [live-server](https://github.com/tapio/live-server)
 
 ---
 
-### Install PHP
+### Install
     pkg update && pkg upgrade
     pkg install node
     npm install live-server
 
 ---
 
-### How to use
+### Test
     pkg install git
     git clone https://github.com/brunodavi/termux-live-server.git
     cd termux-live-server/localhost/
