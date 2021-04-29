@@ -1,6 +1,8 @@
 
 # termux-live-server
-Learn how to create your own [live-server](https://github.com/tapio/live-server) using termux
+Learn how to create your own [live-server](https://github.com/tapio/live-server)
+using termux, which reloads whenever the file is changed
+
 
 ---
 
