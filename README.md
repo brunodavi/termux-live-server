@@ -6,7 +6,7 @@ Learn how to create your own [live-server](https://github.com/tapio/live-server)
 
 ### Install
     pkg update && pkg upgrade
-    pkg install node
+    pkg install nodejs
     npm install live-server
 
 ---
