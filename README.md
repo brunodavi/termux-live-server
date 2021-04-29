@@ -18,6 +18,6 @@ Learn how to create your own [live-server](https://github.com/tapio/live-server)
     npx live-server
 
 > To view remotely on another device, instead of `127.0.0.1:8000`
-> use your `IP:8000` your ip can be seen with the `ifcongfig` command 
+> use your `IP:8000` that can be seen with `ifcongfig` command 
 > on the part of wlan0
 
