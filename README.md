@@ -7,7 +7,7 @@ using termux, which reloads whenever the file is changed
 ### Install
     pkg update && pkg upgrade
     pkg install nodejs
-    npm install live-server
+    npm i -g live-server
 
 
 ### Test
@@ -17,7 +17,7 @@ using termux, which reloads whenever the file is changed
 
 
 ### Run
-    npx live-server
+    live-server
 
 
 > To view remotely on another device, instead of `127.0.0.1:8000`
